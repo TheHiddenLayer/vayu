@@ -7,4 +7,5 @@ gazelle(
         "BUILD",
     ],
     gazelle = "@rules_python_gazelle_plugin//python:gazelle_binary",
+    visibility = ["//:__subpackages__"],
 )
