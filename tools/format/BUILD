@@ -9,9 +9,10 @@ format_multirun(
     yaml = "@aspect_rules_lint//format:yamlfmt",
 )
 
-# check if everything is formatted
+# TODO(TheHiddenLayer) check if this is still needed
+# or if format_multirun has a macro underneath for verify
 format_test(
-    name = "check",
+    name = "verify",
     size = "small",
     no_sandbox = True,
     python = "@aspect_rules_lint//format:ruff",
