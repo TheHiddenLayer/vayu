@@ -18,6 +18,6 @@ format_test(
     shell = "@aspect_rules_lint//format:shfmt",
     starlark = "@buildifier_prebuilt//:buildifier",
     visibility = ["//:__subpackages__"],
-    workspace = "//:requirements.txt",
+    workspace = "//:requirements_lock.txt",
     yaml = "@aspect_rules_lint//format:yamlfmt",
 )
