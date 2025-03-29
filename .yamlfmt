@@ -1,0 +1,2 @@
+exclude:
+  - gazelle_python.yaml # this is a generated file that shouldn't be modified

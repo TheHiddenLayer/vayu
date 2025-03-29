@@ -47,8 +47,8 @@
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/MODULE.bazel": "3120d80c5861aa616222ec015332e5f8d3171e062e3e804a2a0253e1be26e59b",
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/source.json": "f121b43eeefc7c29efbd51b83d08631e2347297c95aac9764a701f2a6a2bb953",
     "https://bcr.bazel.build/modules/buildifier_prebuilt/6.1.2/MODULE.bazel": "2ef4962c8b0b6d8d21928a89190755619254459bc67f870dc0ccb9ba9952d444",
-    "https://bcr.bazel.build/modules/buildifier_prebuilt/6.3.3/MODULE.bazel": "cd83c785cac88a68ea9b39248c0fce803bc4fef308e788456c92fb6266dce840",
-    "https://bcr.bazel.build/modules/buildifier_prebuilt/6.3.3/source.json": "855351ebce7470b25dc384a6e22136fba51b070501c3e743c82472f660798797",
+    "https://bcr.bazel.build/modules/buildifier_prebuilt/7.3.1/MODULE.bazel": "537faf0ad9f5892910074b8e43b4c91c96f1d5d86b6ed04bdbe40cf68aa48b68",
+    "https://bcr.bazel.build/modules/buildifier_prebuilt/7.3.1/source.json": "55153a5e6ca9c8a7e266c4b46b951e8a010d25ec6062bc35d5d4f89925796bad",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/MODULE.bazel": "2e8dd40ede9c454042645fd8d8d0cd1527966aa5c919de86661e62953cd73d84",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/source.json": "c9028a501d2db85793a6996205c8de120944f50a0d570438fcae0457a5f9d1f8",
     "https://bcr.bazel.build/modules/gazelle/0.27.0/MODULE.bazel": "3446abd608295de6d90b4a8a118ed64a9ce11dcb3dda2dc3290a22056bd20996",
@@ -606,8 +606,8 @@
     },
     "@@buildifier_prebuilt+//:defs.bzl%buildifier_prebuilt_deps_extension": {
       "general": {
-        "bzlTransitiveDigest": "MBhRa47ea8VhU1u5U9tmB+keq17zTGD4DTyLLLjFAck=",
-        "usagesDigest": "s/yOuOgN8Y0zk1k/0D4rlEmeX2rAfyuy+VhOx82vD10=",
+        "bzlTransitiveDigest": "qC/0s/MZ8q8Sf6/o/iJNMssZNgXa3CjJ7vEVbpHFQRs=",
+        "usagesDigest": "eWMDBEn8E8CrwAPXrlrjIap2pseSMhxDyDdrntHBOOE=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -616,116 +616,116 @@
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildifier-darwin-amd64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildifier-darwin-amd64"
               ],
               "downloaded_file_path": "buildifier",
               "executable": true,
-              "sha256": "3c36a3217bd793815a907a8e5bf81c291e2d35d73c6073914640a5f42e65f73f"
+              "sha256": "375f823103d01620aaec20a0c29c6cbca99f4fd0725ae30b93655c6704f44d71"
             }
           },
           "buildifier_darwin_arm64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildifier-darwin-arm64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildifier-darwin-arm64"
               ],
               "downloaded_file_path": "buildifier",
               "executable": true,
-              "sha256": "9bb366432d515814766afcf6f9010294c13876686fbbe585d5d6b4ff0ca3e982"
+              "sha256": "5a6afc6ac7a09f5455ba0b89bd99d5ae23b4174dc5dc9d6c0ed5ce8caac3f813"
             }
           },
           "buildifier_linux_amd64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildifier-linux-amd64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildifier-linux-amd64"
               ],
               "downloaded_file_path": "buildifier",
               "executable": true,
-              "sha256": "42f798ec532c58e34401985043e660cb19d5ae994e108d19298c7d229547ffca"
+              "sha256": "5474cc5128a74e806783d54081f581662c4be8ae65022f557e9281ed5dc88009"
             }
           },
           "buildifier_linux_arm64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildifier-linux-arm64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildifier-linux-arm64"
               ],
               "downloaded_file_path": "buildifier",
               "executable": true,
-              "sha256": "6a03a1cf525045cb686fc67cd5d64cface5092ebefca3c4c93fb6e97c64e07db"
+              "sha256": "0bf86c4bfffaf4f08eed77bde5b2082e4ae5039a11e2e8b03984c173c34a561c"
             }
           },
           "buildifier_windows_amd64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildifier-windows-amd64.exe"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildifier-windows-amd64.exe"
               ],
               "downloaded_file_path": "buildifier.exe",
               "executable": true,
-              "sha256": "2761bebc7392d47c2862c43d85201d93efa57249ed09405fd82708867caa787b"
+              "sha256": "370cd576075ad29930a82f5de132f1a1de4084c784a82514bd4da80c85acf4a8"
             }
           },
           "buildozer_darwin_amd64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildozer-darwin-amd64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildozer-darwin-amd64"
               ],
               "downloaded_file_path": "buildozer",
               "executable": true,
-              "sha256": "9b0bbecb3745250e5ad5a9c36da456699cb55e52999451c3c74047d2b1f0085f"
+              "sha256": "854c9583efc166602276802658cef3f224d60898cfaa60630b33d328db3b0de2"
             }
           },
           "buildozer_darwin_arm64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildozer-darwin-arm64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildozer-darwin-arm64"
               ],
               "downloaded_file_path": "buildozer",
               "executable": true,
-              "sha256": "085928dd4deffa1a7fd38c66c4475e37326b2d4942408e8e3d993953ae4c626c"
+              "sha256": "31b1bfe20d7d5444be217af78f94c5c43799cdf847c6ce69794b7bf3319c5364"
             }
           },
           "buildozer_linux_amd64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildozer-linux-amd64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildozer-linux-amd64"
               ],
               "downloaded_file_path": "buildozer",
               "executable": true,
-              "sha256": "1dcdc668d7c775e5bca2d43ac37e036468ca4d139a78fe48ae207d41411c5100"
+              "sha256": "3305e287b3fcc68b9a35fd8515ee617452cd4e018f9e6886b6c7cdbcba8710d4"
             }
           },
           "buildozer_linux_arm64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildozer-linux-arm64"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildozer-linux-arm64"
               ],
               "downloaded_file_path": "buildozer",
               "executable": true,
-              "sha256": "94b96d6a3c52d6ef416f0eb96c8a9fe7f6a0757f0458cc8cf190dfc4a5c2d8e7"
+              "sha256": "0b5a2a717ac4fc911e1fec8d92af71dbb4fe95b10e5213da0cc3d56cea64a328"
             }
           },
           "buildozer_windows_amd64": {
             "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
             "attributes": {
               "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.3.3/buildozer-windows-amd64.exe"
+                "https://github.com/bazelbuild/buildtools/releases/download/v7.3.1/buildozer-windows-amd64.exe"
               ],
               "downloaded_file_path": "buildozer.exe",
               "executable": true,
-              "sha256": "fc1c4f5de391ec6d66f2119c5bd6131d572ae35e92ddffe720e42b619ab158e0"
+              "sha256": "58d41ce53257c5594c9bc86d769f580909269f68de114297f46284fbb9023dcf"
             }
           },
           "buildifier_prebuilt_toolchains": {
             "repoRuleId": "@@buildifier_prebuilt+//:defs.bzl%_buildifier_toolchain_setup",
             "attributes": {
-              "assets_json": "[{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"darwin\",\"sha256\":\"3c36a3217bd793815a907a8e5bf81c291e2d35d73c6073914640a5f42e65f73f\",\"version\":\"v6.3.3\"},{\"arch\":\"arm64\",\"name\":\"buildifier\",\"platform\":\"darwin\",\"sha256\":\"9bb366432d515814766afcf6f9010294c13876686fbbe585d5d6b4ff0ca3e982\",\"version\":\"v6.3.3\"},{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"linux\",\"sha256\":\"42f798ec532c58e34401985043e660cb19d5ae994e108d19298c7d229547ffca\",\"version\":\"v6.3.3\"},{\"arch\":\"arm64\",\"name\":\"buildifier\",\"platform\":\"linux\",\"sha256\":\"6a03a1cf525045cb686fc67cd5d64cface5092ebefca3c4c93fb6e97c64e07db\",\"version\":\"v6.3.3\"},{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"windows\",\"sha256\":\"2761bebc7392d47c2862c43d85201d93efa57249ed09405fd82708867caa787b\",\"version\":\"v6.3.3\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"darwin\",\"sha256\":\"9b0bbecb3745250e5ad5a9c36da456699cb55e52999451c3c74047d2b1f0085f\",\"version\":\"v6.3.3\"},{\"arch\":\"arm64\",\"name\":\"buildozer\",\"platform\":\"darwin\",\"sha256\":\"085928dd4deffa1a7fd38c66c4475e37326b2d4942408e8e3d993953ae4c626c\",\"version\":\"v6.3.3\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"linux\",\"sha256\":\"1dcdc668d7c775e5bca2d43ac37e036468ca4d139a78fe48ae207d41411c5100\",\"version\":\"v6.3.3\"},{\"arch\":\"arm64\",\"name\":\"buildozer\",\"platform\":\"linux\",\"sha256\":\"94b96d6a3c52d6ef416f0eb96c8a9fe7f6a0757f0458cc8cf190dfc4a5c2d8e7\",\"version\":\"v6.3.3\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"windows\",\"sha256\":\"fc1c4f5de391ec6d66f2119c5bd6131d572ae35e92ddffe720e42b619ab158e0\",\"version\":\"v6.3.3\"}]"
+              "assets_json": "[{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"darwin\",\"sha256\":\"375f823103d01620aaec20a0c29c6cbca99f4fd0725ae30b93655c6704f44d71\",\"version\":\"v7.3.1\"},{\"arch\":\"arm64\",\"name\":\"buildifier\",\"platform\":\"darwin\",\"sha256\":\"5a6afc6ac7a09f5455ba0b89bd99d5ae23b4174dc5dc9d6c0ed5ce8caac3f813\",\"version\":\"v7.3.1\"},{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"linux\",\"sha256\":\"5474cc5128a74e806783d54081f581662c4be8ae65022f557e9281ed5dc88009\",\"version\":\"v7.3.1\"},{\"arch\":\"arm64\",\"name\":\"buildifier\",\"platform\":\"linux\",\"sha256\":\"0bf86c4bfffaf4f08eed77bde5b2082e4ae5039a11e2e8b03984c173c34a561c\",\"version\":\"v7.3.1\"},{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"windows\",\"sha256\":\"370cd576075ad29930a82f5de132f1a1de4084c784a82514bd4da80c85acf4a8\",\"version\":\"v7.3.1\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"darwin\",\"sha256\":\"854c9583efc166602276802658cef3f224d60898cfaa60630b33d328db3b0de2\",\"version\":\"v7.3.1\"},{\"arch\":\"arm64\",\"name\":\"buildozer\",\"platform\":\"darwin\",\"sha256\":\"31b1bfe20d7d5444be217af78f94c5c43799cdf847c6ce69794b7bf3319c5364\",\"version\":\"v7.3.1\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"linux\",\"sha256\":\"3305e287b3fcc68b9a35fd8515ee617452cd4e018f9e6886b6c7cdbcba8710d4\",\"version\":\"v7.3.1\"},{\"arch\":\"arm64\",\"name\":\"buildozer\",\"platform\":\"linux\",\"sha256\":\"0b5a2a717ac4fc911e1fec8d92af71dbb4fe95b10e5213da0cc3d56cea64a328\",\"version\":\"v7.3.1\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"windows\",\"sha256\":\"58d41ce53257c5594c9bc86d769f580909269f68de114297f46284fbb9023dcf\",\"version\":\"v7.3.1\"}]"
             }
           }
         },
@@ -1011,9 +1011,9 @@
     "@@rules_python+//python/extensions:pip.bzl%pip": {
       "general": {
         "bzlTransitiveDigest": "+D0pesQWVftxFrDIgPJ73YmMFEclIwO1GnRJt0A/vOM=",
-        "usagesDigest": "ZO4vg3+4WyJUZxKGh6NnQ1+ceX5shKPmA8P97gQO/FE=",
+        "usagesDigest": "3r5qZaheUlq+/Vu44pNoH7l+NpBZgAsX4uL1kv+f5Lc=",
         "recordedFileInputs": {
-          "@@//requirements.txt": "e09f656c130b9c08b2c5ab7187c891295e449ed77febea2a6ceee9cc98ccb0fc",
+          "@@//requirements_lock.txt": "3d7d390502b5a8698436ca5b4e6acc45755d9882a77ba06ce4b161007a743126",
           "@@protobuf+//python/requirements.txt": "983be60d3cec4b319dcab6d48aeb3f5b2f7c3350f26b3a9e97486c37967c73c5",
           "@@rules_fuzzing+//fuzzing/requirements.txt": "ab04664be026b632a0d2a2446c4f65982b7654f5b6851d2f9d399a19b7242a5b",
           "@@rules_python+//tools/publish/requirements_darwin.txt": "095d4a4f3d639dce831cd493367631cd51b53665292ab20194bac2c0c6458fa8",
@@ -1114,15 +1114,6 @@
               "python_interpreter_target": "@@rules_python++python+python_3_9_host//:python",
               "repo": "pip_deps_39",
               "requirement": "setuptools<=70.3.0"
-            }
-          },
-          "pypi_311_numpy": {
-            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
-            "attributes": {
-              "dep_template": "@pypi//{name}:{target}",
-              "python_interpreter_target": "@@rules_python++python+python_3_11_host//:python",
-              "repo": "pypi_311",
-              "requirement": "numpy"
             }
           },
           "rules_fuzzing_py_deps_310_absl_py": {
@@ -3430,6 +3421,16 @@
               ]
             }
           },
+          "pip": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:hub_repository.bzl%hub_repository",
+            "attributes": {
+              "repo_name": "pip",
+              "extra_hub_aliases": {},
+              "whl_map": {},
+              "packages": [],
+              "groups": {}
+            }
+          },
           "pip_deps": {
             "repoRuleId": "@@rules_python+//python/private/pypi:hub_repository.bzl%hub_repository",
             "attributes": {
@@ -3442,20 +3443,6 @@
               "packages": [
                 "numpy",
                 "setuptools"
-              ],
-              "groups": {}
-            }
-          },
-          "pypi": {
-            "repoRuleId": "@@rules_python+//python/private/pypi:hub_repository.bzl%hub_repository",
-            "attributes": {
-              "repo_name": "pypi",
-              "extra_hub_aliases": {},
-              "whl_map": {
-                "numpy": "{\"pypi_311_numpy\":[{\"version\":\"3.11\"}]}"
-              },
-              "packages": [
-                "numpy"
               ],
               "groups": {}
             }
@@ -3684,24 +3671,155 @@
     "@@rules_python+//python/uv:uv.bzl%uv": {
       "general": {
         "bzlTransitiveDigest": "Xpqjnjzy6zZ90Es9Wa888ZLHhn7IsNGbph/e6qoxzw8=",
-        "usagesDigest": "vJ5RHUxAnV24M5swNGiAnkdxMx3Hp/iOLmNANTC5Xc8=",
+        "usagesDigest": "bpYWIsYkm+Jc9e4KJRTAVBfdCXeqlazg8oBBUEZ4rpA=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
         "generatedRepoSpecs": {
+          "uv_0_6_2_aarch64_apple_darwin": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "aarch64-apple-darwin",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-aarch64-apple-darwin.tar.gz"
+              ],
+              "sha256": "4af802a1216053650dd82eee85ea4241994f432937d41c8b0bc90f2639e6ae14"
+            }
+          },
+          "uv_0_6_2_aarch64_unknown_linux_gnu": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "aarch64-unknown-linux-gnu",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-aarch64-unknown-linux-gnu.tar.gz"
+              ],
+              "sha256": "ca4c08724764a2b6c8f2173c4e3ca9dcde0d9d328e73b4d725cfb6b17a925eed"
+            }
+          },
+          "uv_0_6_2_powerpc64_unknown_linux_gnu": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "powerpc64-unknown-linux-gnu",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-powerpc64-unknown-linux-gnu.tar.gz"
+              ],
+              "sha256": "de17553549280fd877452dd1f7f9d0a604e3544bfad007b8ec0b9943f103796f"
+            }
+          },
+          "uv_0_6_2_powerpc64le_unknown_linux_gnu": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "powerpc64le-unknown-linux-gnu",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-powerpc64le-unknown-linux-gnu.tar.gz"
+              ],
+              "sha256": "f341fd4874d2d007135626a0657d1478f331a78991d8a1a06aaa0d52fbe16183"
+            }
+          },
+          "uv_0_6_2_s390x_unknown_linux_gnu": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "s390x-unknown-linux-gnu",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-s390x-unknown-linux-gnu.tar.gz"
+              ],
+              "sha256": "17fd89bd8de75da9c91baf918b8079c1f1f92bb6a398f0cfbc5ddefe0c7f0ee5"
+            }
+          },
+          "uv_0_6_2_x86_64_apple_darwin": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "x86_64-apple-darwin",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-x86_64-apple-darwin.tar.gz"
+              ],
+              "sha256": "2b9e78b2562aea93f13e42df1177cb07c59a4d4f1c8ff8907d0c31f3a5e5e8db"
+            }
+          },
+          "uv_0_6_2_x86_64_pc_windows_msvc": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "x86_64-pc-windows-msvc",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-x86_64-pc-windows-msvc.zip"
+              ],
+              "sha256": "5f33c3cc5c183775cc51b3e661a0d2ce31142d32a50406a67c7ad0321fc841d9"
+            }
+          },
+          "uv_0_6_2_x86_64_unknown_linux_gnu": {
+            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
+            "attributes": {
+              "version": "0.6.2",
+              "platform": "x86_64-unknown-linux-gnu",
+              "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-x86_64-unknown-linux-gnu.tar.gz"
+              ],
+              "sha256": "37ea31f099678a3bee56f8a757d73551aad43f8025d377a8dde80dd946c1b7f2"
+            }
+          },
           "uv": {
             "repoRuleId": "@@rules_python+//python/uv/private:uv_toolchains_repo.bzl%uv_toolchains_repo",
             "attributes": {
               "toolchain_type": "'@@rules_python+//python/uv:uv_toolchain_type'",
               "toolchain_names": [
-                "none"
+                "0_6_2_aarch64_apple_darwin",
+                "0_6_2_aarch64_unknown_linux_gnu",
+                "0_6_2_powerpc64_unknown_linux_gnu",
+                "0_6_2_powerpc64le_unknown_linux_gnu",
+                "0_6_2_s390x_unknown_linux_gnu",
+                "0_6_2_x86_64_apple_darwin",
+                "0_6_2_x86_64_pc_windows_msvc",
+                "0_6_2_x86_64_unknown_linux_gnu"
               ],
               "toolchain_implementations": {
-                "none": "'@@rules_python+//python:none'"
+                "0_6_2_aarch64_apple_darwin": "@uv_0_6_2_aarch64_apple_darwin//:uv_toolchain",
+                "0_6_2_aarch64_unknown_linux_gnu": "@uv_0_6_2_aarch64_unknown_linux_gnu//:uv_toolchain",
+                "0_6_2_powerpc64_unknown_linux_gnu": "@uv_0_6_2_powerpc64_unknown_linux_gnu//:uv_toolchain",
+                "0_6_2_powerpc64le_unknown_linux_gnu": "@uv_0_6_2_powerpc64le_unknown_linux_gnu//:uv_toolchain",
+                "0_6_2_s390x_unknown_linux_gnu": "@uv_0_6_2_s390x_unknown_linux_gnu//:uv_toolchain",
+                "0_6_2_x86_64_apple_darwin": "@uv_0_6_2_x86_64_apple_darwin//:uv_toolchain",
+                "0_6_2_x86_64_pc_windows_msvc": "@uv_0_6_2_x86_64_pc_windows_msvc//:uv_toolchain",
+                "0_6_2_x86_64_unknown_linux_gnu": "@uv_0_6_2_x86_64_unknown_linux_gnu//:uv_toolchain"
               },
               "toolchain_compatible_with": {
-                "none": [
-                  "@platforms//:incompatible"
+                "0_6_2_aarch64_apple_darwin": [
+                  "'@@platforms//os:macos'",
+                  "'@@platforms//cpu:aarch64'"
+                ],
+                "0_6_2_aarch64_unknown_linux_gnu": [
+                  "'@@platforms//os:linux'",
+                  "'@@platforms//cpu:aarch64'"
+                ],
+                "0_6_2_powerpc64_unknown_linux_gnu": [
+                  "'@@platforms//os:linux'",
+                  "'@@platforms//cpu:ppc'"
+                ],
+                "0_6_2_powerpc64le_unknown_linux_gnu": [
+                  "'@@platforms//os:linux'",
+                  "'@@platforms//cpu:ppc64le'"
+                ],
+                "0_6_2_s390x_unknown_linux_gnu": [
+                  "'@@platforms//os:linux'",
+                  "'@@platforms//cpu:s390x'"
+                ],
+                "0_6_2_x86_64_apple_darwin": [
+                  "'@@platforms//os:macos'",
+                  "'@@platforms//cpu:x86_64'"
+                ],
+                "0_6_2_x86_64_pc_windows_msvc": [
+                  "'@@platforms//os:windows'",
+                  "'@@platforms//cpu:x86_64'"
+                ],
+                "0_6_2_x86_64_unknown_linux_gnu": [
+                  "'@@platforms//os:linux'",
+                  "'@@platforms//cpu:x86_64'"
                 ]
               },
               "toolchain_target_settings": {}
