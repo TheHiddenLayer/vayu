@@ -3671,155 +3671,24 @@
     "@@rules_python+//python/uv:uv.bzl%uv": {
       "general": {
         "bzlTransitiveDigest": "Xpqjnjzy6zZ90Es9Wa888ZLHhn7IsNGbph/e6qoxzw8=",
-        "usagesDigest": "bpYWIsYkm+Jc9e4KJRTAVBfdCXeqlazg8oBBUEZ4rpA=",
+        "usagesDigest": "vJ5RHUxAnV24M5swNGiAnkdxMx3Hp/iOLmNANTC5Xc8=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
         "generatedRepoSpecs": {
-          "uv_0_6_2_aarch64_apple_darwin": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "aarch64-apple-darwin",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-aarch64-apple-darwin.tar.gz"
-              ],
-              "sha256": "4af802a1216053650dd82eee85ea4241994f432937d41c8b0bc90f2639e6ae14"
-            }
-          },
-          "uv_0_6_2_aarch64_unknown_linux_gnu": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "aarch64-unknown-linux-gnu",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-aarch64-unknown-linux-gnu.tar.gz"
-              ],
-              "sha256": "ca4c08724764a2b6c8f2173c4e3ca9dcde0d9d328e73b4d725cfb6b17a925eed"
-            }
-          },
-          "uv_0_6_2_powerpc64_unknown_linux_gnu": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "powerpc64-unknown-linux-gnu",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-powerpc64-unknown-linux-gnu.tar.gz"
-              ],
-              "sha256": "de17553549280fd877452dd1f7f9d0a604e3544bfad007b8ec0b9943f103796f"
-            }
-          },
-          "uv_0_6_2_powerpc64le_unknown_linux_gnu": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "powerpc64le-unknown-linux-gnu",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-powerpc64le-unknown-linux-gnu.tar.gz"
-              ],
-              "sha256": "f341fd4874d2d007135626a0657d1478f331a78991d8a1a06aaa0d52fbe16183"
-            }
-          },
-          "uv_0_6_2_s390x_unknown_linux_gnu": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "s390x-unknown-linux-gnu",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-s390x-unknown-linux-gnu.tar.gz"
-              ],
-              "sha256": "17fd89bd8de75da9c91baf918b8079c1f1f92bb6a398f0cfbc5ddefe0c7f0ee5"
-            }
-          },
-          "uv_0_6_2_x86_64_apple_darwin": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "x86_64-apple-darwin",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-x86_64-apple-darwin.tar.gz"
-              ],
-              "sha256": "2b9e78b2562aea93f13e42df1177cb07c59a4d4f1c8ff8907d0c31f3a5e5e8db"
-            }
-          },
-          "uv_0_6_2_x86_64_pc_windows_msvc": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "x86_64-pc-windows-msvc",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-x86_64-pc-windows-msvc.zip"
-              ],
-              "sha256": "5f33c3cc5c183775cc51b3e661a0d2ce31142d32a50406a67c7ad0321fc841d9"
-            }
-          },
-          "uv_0_6_2_x86_64_unknown_linux_gnu": {
-            "repoRuleId": "@@rules_python+//python/uv/private:uv_repository.bzl%uv_repository",
-            "attributes": {
-              "version": "0.6.2",
-              "platform": "x86_64-unknown-linux-gnu",
-              "urls": [
-                "https://github.com/astral-sh/uv/releases/download/0.6.2/uv-x86_64-unknown-linux-gnu.tar.gz"
-              ],
-              "sha256": "37ea31f099678a3bee56f8a757d73551aad43f8025d377a8dde80dd946c1b7f2"
-            }
-          },
           "uv": {
             "repoRuleId": "@@rules_python+//python/uv/private:uv_toolchains_repo.bzl%uv_toolchains_repo",
             "attributes": {
               "toolchain_type": "'@@rules_python+//python/uv:uv_toolchain_type'",
               "toolchain_names": [
-                "0_6_2_aarch64_apple_darwin",
-                "0_6_2_aarch64_unknown_linux_gnu",
-                "0_6_2_powerpc64_unknown_linux_gnu",
-                "0_6_2_powerpc64le_unknown_linux_gnu",
-                "0_6_2_s390x_unknown_linux_gnu",
-                "0_6_2_x86_64_apple_darwin",
-                "0_6_2_x86_64_pc_windows_msvc",
-                "0_6_2_x86_64_unknown_linux_gnu"
+                "none"
               ],
               "toolchain_implementations": {
-                "0_6_2_aarch64_apple_darwin": "@uv_0_6_2_aarch64_apple_darwin//:uv_toolchain",
-                "0_6_2_aarch64_unknown_linux_gnu": "@uv_0_6_2_aarch64_unknown_linux_gnu//:uv_toolchain",
-                "0_6_2_powerpc64_unknown_linux_gnu": "@uv_0_6_2_powerpc64_unknown_linux_gnu//:uv_toolchain",
-                "0_6_2_powerpc64le_unknown_linux_gnu": "@uv_0_6_2_powerpc64le_unknown_linux_gnu//:uv_toolchain",
-                "0_6_2_s390x_unknown_linux_gnu": "@uv_0_6_2_s390x_unknown_linux_gnu//:uv_toolchain",
-                "0_6_2_x86_64_apple_darwin": "@uv_0_6_2_x86_64_apple_darwin//:uv_toolchain",
-                "0_6_2_x86_64_pc_windows_msvc": "@uv_0_6_2_x86_64_pc_windows_msvc//:uv_toolchain",
-                "0_6_2_x86_64_unknown_linux_gnu": "@uv_0_6_2_x86_64_unknown_linux_gnu//:uv_toolchain"
+                "none": "'@@rules_python+//python:none'"
               },
               "toolchain_compatible_with": {
-                "0_6_2_aarch64_apple_darwin": [
-                  "'@@platforms//os:macos'",
-                  "'@@platforms//cpu:aarch64'"
-                ],
-                "0_6_2_aarch64_unknown_linux_gnu": [
-                  "'@@platforms//os:linux'",
-                  "'@@platforms//cpu:aarch64'"
-                ],
-                "0_6_2_powerpc64_unknown_linux_gnu": [
-                  "'@@platforms//os:linux'",
-                  "'@@platforms//cpu:ppc'"
-                ],
-                "0_6_2_powerpc64le_unknown_linux_gnu": [
-                  "'@@platforms//os:linux'",
-                  "'@@platforms//cpu:ppc64le'"
-                ],
-                "0_6_2_s390x_unknown_linux_gnu": [
-                  "'@@platforms//os:linux'",
-                  "'@@platforms//cpu:s390x'"
-                ],
-                "0_6_2_x86_64_apple_darwin": [
-                  "'@@platforms//os:macos'",
-                  "'@@platforms//cpu:x86_64'"
-                ],
-                "0_6_2_x86_64_pc_windows_msvc": [
-                  "'@@platforms//os:windows'",
-                  "'@@platforms//cpu:x86_64'"
-                ],
-                "0_6_2_x86_64_unknown_linux_gnu": [
-                  "'@@platforms//os:linux'",
-                  "'@@platforms//cpu:x86_64'"
+                "none": [
+                  "@platforms//:incompatible"
                 ]
               },
               "toolchain_target_settings": {}
