@@ -1,11 +1,10 @@
 class Value:
-    def __init__(self, value):
-        self._value = value  # Use a different variable name for internal storage
 
-    @property
-    def value(self):
-        return self._value  # Return the internal variable
+    def __init__(self, data):
+        self.data = data
 
-    @value.setter
-    def value(self, value):
-        self._value = value  # Set the internal variable
+    def __repr__(self):
+        return f"Value(data={self.data})"
+
+    def __add__(self, other):
+        return Value(self.data + other.data)

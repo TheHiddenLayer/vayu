@@ -14,4 +14,5 @@ py_binary(
     srcs = ["__main__.py"],
     main = "__main__.py",
     visibility = ["//:__subpackages__"],
+    deps = [":vayu"],
 )
